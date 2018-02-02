@@ -2,3 +2,5 @@
 
 # Redirect domain aliases to primary domain
 https://agencyteam.co/* https://www.agencyteam.co/:splat 301!
+
+https://agencyteam.co https://www.agencyteam.co:splat 301!
