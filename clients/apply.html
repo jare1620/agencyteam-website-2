@@ -81,23 +81,16 @@ drift.load('yb6c27rczkdk');
         </div>
         </div>
     </nav>
-    <div class="projects-horizontal"></div>
-    <div class="highlight-clean">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Case Studies Coming Soon</h2>
-                <p class="text-center">We're working closely with our past customers to draft detailed case studies of their hiring experiences.</p>
-            </div>
-        </div>
-    </div>
-    <div class="highlight-clean" style="color:rgb(255,255,255);background-color:rgb(238,244,247);">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center" style="color:#303030;">Each developer is unique</h2>
-                <p class="text-center" style="color:#7d8285;font-size:18px;">Interview and hire a freelance developers from a network of pre-vetted talent</p>
-            </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="/clients/apply" style="background-color:#3a75c4;">grow your team</a></div>
-        </div>
+    <div class="contact-clean">
+        <form method="post" name="lead" data-netlify="true">
+            <h2 class="text-center" style="color:#303030;">Find your perfect match</h2>
+            <div class="form-group"><select class="form-control" name="developer" required=""><option value="" selected="">Type of Developer</option><option value="Full-Stack">Full-Stack</option><option value="Front-End">Front-End</option><option value="Back-End">Back-End</option></select></div>
+            <div
+                class="form-group"><input class="form-control" type="text" name="name" required="" placeholder="Your name" maxlength="50"></div>
+    <div class="form-group"><input class="form-control" type="text" name="company" required="" placeholder="Company name" maxlength="50" autofocus=""></div>
+    <div class="form-group"><input class="form-control" type="email" name="email" required="" placeholder="Your email address" maxlength="50" inputmode="email"></div>
+    <div class="form-group"><button class="btn btn-dark" type="submit" style="background-color:#3a75c4;">Get Started</button></div>
+    </form>
     </div>
     <div class="footer-basic" style="background-color:#303030;">
         <footer>
@@ -112,6 +105,25 @@ drift.load('yb6c27rczkdk');
             </ul>
             <p class="copyright">AgencyTeam LLC © 2018</p>
         </footer>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal1">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Hire a developer through AgencyTeam</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <form method="post" name="lead" data-netlify="true">
+    <div class="form-group"><select name="developer" required class="form-control"><option value selected>Type of Developer</option><option value="Full-Stack">Full-Stack</option><option value="Front-End">Front-End</option><option value="Back-End">Back-End</option></select></div>
+    <div
+        class="form-group"><input type="text" name="name" required placeholder="Your name" class="form-control" /></div>
+        <div class="form-group"><input type="text" name="company" required placeholder="Company name" class="form-control" /></div>
+        <div class="form-group"><input type="email" name="email" required placeholder="Your email address" class="form-control" /></div>
+        <div class="form-group"><button class="btn btn-dark" type="submit" style="background-color:#3a75c4;">Get Started</button></div>
+</form>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+        </div>
     </div>
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
