@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="../assets/css/AgencyTeam-Navbar.css">
     <link rel="stylesheet" href="../assets/css/Article-Clean.css">
     <link rel="stylesheet" href="../assets/css/Article-List.css">
     <link rel="stylesheet" href="../assets/css/Brands.css">
@@ -67,9 +69,9 @@ drift.load('yb6c27rczkdk');
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color:#ffffff;color:rgb(255,255,255);">
-        <div class="container"><a class="navbar-brand" href="/index.html" style="color:#3a75c4;font-size:30px;"> AgencyTeam</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+        <div class="container"><a class="navbar-brand" href="/index.html" style="color:#3a75c4;font-size:30px;font-family:'Josefin Sans', sans-serif;"><img src="../assets/img/agencyteam_icon_small.png" style="width:60px;">&nbsp;agencyteam</a><button class="navbar-toggler" data-toggle="collapse"
+                data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#3a75c4;background-color:#ffffff;">Clients </a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="/clients/case-studies">Case Studies</a><a class="dropdown-item" role="presentation" href="/clients/faq">FAQ </a></div>
@@ -77,8 +79,9 @@ drift.load('yb6c27rczkdk');
                     <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#" style="color:#3a75c4;background-color:#ffffff;">Company </a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="/company/about-us">About Us</a></div>
                     </li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/company/join-network" style="color:#3a75c4;">Apply as a Developer</a></li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <div class="contact-clean">
@@ -111,16 +114,14 @@ drift.load('yb6c27rczkdk');
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Hire a developer through AgencyTeam</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                <div class="modal-body">
-                    <form method="post" name="lead" data-netlify="true">
+                <div class="modal-body"><form method="post" name="lead" data-netlify="true">
     <div class="form-group"><select name="developer" required class="form-control"><option value selected>Type of Developer</option><option value="Full-Stack">Full-Stack</option><option value="Front-End">Front-End</option><option value="Back-End">Back-End</option></select></div>
     <div
         class="form-group"><input type="text" name="name" required placeholder="Your name" class="form-control" /></div>
         <div class="form-group"><input type="text" name="company" required placeholder="Company name" class="form-control" /></div>
         <div class="form-group"><input type="email" name="email" required placeholder="Your email address" class="form-control" /></div>
         <div class="form-group"><button class="btn btn-dark" type="submit" style="background-color:#3a75c4;">Get Started</button></div>
-</form>
-                </div>
+</form></div>
                 <div class="modal-footer"></div>
             </div>
         </div>
